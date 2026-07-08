@@ -130,11 +130,11 @@ class Pong {
             this.player1.y += this.paddleSpeed;
         }
         
-        // Player 2 controls (Arrow keys)
-        if (this.keys['arrowup'] && this.player2.y > 0) {
+        // Player 2 controls (P/L keys)
+        if (this.keys['p'] && this.player2.y > 0) {
             this.player2.y -= this.paddleSpeed;
         }
-        if (this.keys['arrowdown'] && this.player2.y < this.canvasHeight - this.paddleHeight) {
+        if (this.keys['l'] && this.player2.y < this.canvasHeight - this.paddleHeight) {
             this.player2.y += this.paddleSpeed;
         }
     }

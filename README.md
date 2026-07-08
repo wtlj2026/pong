@@ -25,8 +25,8 @@ https://wtlj2026.github.io/pong
 - `S` - Move paddle down
 
 **Player 2 (Right Paddle - Purple)**
-- `↑ Arrow Up` - Move paddle up
-- `↓ Arrow Down` - Move paddle down
+- `P` - Move paddle up
+- `L` - Move paddle down
 
 ### Objective
 
@@ -72,7 +72,7 @@ cd pong
 
 Click the **Copy** button on the game page to copy the share link and send it to your friends!
 
-## 🛠️ Technical Details
+## 🔧 Technical Details
 
 - Built with vanilla JavaScript (no frameworks)
 - Uses HTML5 Canvas for rendering
